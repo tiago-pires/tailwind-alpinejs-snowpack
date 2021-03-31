@@ -1,0 +1,24 @@
+{
+  "name": "alpine-winds",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "snowpack dev",
+    "build": "snowpack build"
+  },
+  "dependencies": {
+    "tailwindcss": "^2.0.3"
+  },
+  "devDependencies": {
+    "snowpack": "^3.0.13",
+    "postcss-cli": "^8.3.1",
+    "postcss": "^8.2.8",
+    "autoprefixer": "^10.2.5",
+    "@snowpack/plugin-build-script": "^2.1.0"
+  }
+}
